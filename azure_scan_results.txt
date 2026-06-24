@@ -1,0 +1,43 @@
+=== Azure Subscription Scan Results ===
+Scanned at: 2026-06-24 11:32:54
+
+Format: SubscriptionID | Name | Containers
+
+================================================================================
+
+e5b1e984-5de8-4637-8fc4-7ab5cfe8453f | Azure subscription 1
+    Storage Account: laurailie
+      Resource Group: processblobupload2
+      Location: westeurope
+      Kind: StorageV2
+      SKU: Standard_RAGRS
+      Access Tier: Hot
+      Created: N/A
+      Blob Endpoint: https://laurailie.blob.core.windows.net/
+      File Endpoint: https://laurailie.file.core.windows.net/
+      Queue Endpoint: https://laurailie.queue.core.windows.net/
+      Table Endpoint: https://laurailie.table.core.windows.net/
+      Blob Containers:
+        - container1
+      File Shares:
+        - file1
+    Storage Account: processblobupload2
+      Resource Group: processblobupload2
+      Location: westeurope
+      Kind: StorageV2
+      SKU: Standard_LRS
+      Access Tier: Hot
+      Created: N/A
+      Blob Endpoint: https://processblobupload2.blob.core.windows.net/
+      File Endpoint: https://processblobupload2.file.core.windows.net/
+      Queue Endpoint: https://processblobupload2.queue.core.windows.net/
+      Table Endpoint: https://processblobupload2.table.core.windows.net/
+      Blob Containers:
+        - app-package-processblobupload-2e09803
+        - azure-webjobs-hosts
+        - azure-webjobs-secrets
+      File Shares:
+
+================================================================================
+Summary: 1 subscriptions, 2 storage accounts, 4 blob containers, 1 file shares
+=== Scan Complete ===
